@@ -1,0 +1,27 @@
+# .editorconfig for Python development
+
+# Top-most EditorConfig file
+root = true
+
+# Global settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 88  # Matches Black formatter defaults
+insert_final_newline = true
+
+# Markdown and text files
+[*.{md,txt}]
+trim_trailing_whitespace = false
+
+# YAML files
+[*.yml]
+indent_style = space
+indent_size = 2
