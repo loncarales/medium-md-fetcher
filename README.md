@@ -1,5 +1,9 @@
 # Medium Markdown Fetcher
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=loncarales_medium-md-fetcher&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=loncarales_medium-md-fetcher)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=loncarales_medium-md-fetcher&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=loncarales_medium-md-fetcher)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=loncarales_medium-md-fetcher&metric=coverage)](https://sonarcloud.io/summary/new_code?id=loncarales_medium-md-fetcher)
+
 A command-line tool and Python library for fetching Medium articles. This tool allows you to download articles from Medium using their URLs and save them as Markdown files for offline reading, archiving, or content repurposing.
 
 ## Features
